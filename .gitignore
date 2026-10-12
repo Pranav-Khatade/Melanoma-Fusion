@@ -1,0 +1,22 @@
+cat <<EOT > .gitignore
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# ML / AI Weights and Datasets (ignore files over 100MB)
+*.pth
+*.pt
+*.h5
+*.onnx
+*.safetensors
+dataset/
+data/
+
+# Environment / Secret variables
+.env
+EOT

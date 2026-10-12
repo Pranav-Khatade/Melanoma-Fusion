@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision
+timm>=0.9
+scikit-learn
+pandas
+numpy
+pillow
+opencv-python
+joblib
+shap
+fastapi
+uvicorn
+python-multipart
